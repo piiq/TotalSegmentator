@@ -13,7 +13,7 @@ setup(name='TotalSegmentator',
         install_requires=[
             'numpy',
             'psutil',
-            # Any version <2.1.0 because of this issue: 
+            # Any version <2.1.0 because of this issue:
             # https://github.com/SimpleITK/SimpleITK/issues/1433
             'SimpleITK',
             'nibabel>=2.3.0',
@@ -21,7 +21,7 @@ setup(name='TotalSegmentator',
             'p_tqdm',
             'xvfbwrapper',
             'fury',
-            'batchgenerators==0.21',
+            'batchgenerators>=0.21',
             # This does not work if want to upload to pypi
             # 'nnunet @ git+https://github.com/wasserth/nnUNet_cust@working_2022_03_18#egg=nnUNet'
             'nnunet-customized==1.1',
